@@ -25,10 +25,11 @@ Imagine que você é um **professor** e precisa descrever animais e frutas usand
 
 ![](assets/AI-p1.png)
 
-> 👀 **Observe com atenção!** Os números do **Leão** e do **Tigre** são quase idênticos! Já os números da **Banana** e do **Kiwi** (que são `[-2.4, 2.0, 1.3, 5.2, 2.3]`) também são bem parecidos entre si.
+> 👀 **Observe com atenção!** Os números do **Leão** e do **Tigre** são quase idênticos! Já os números da **Banana** e do **Kiwi** (que são `[-2.4, 2.0, 1.3, 5.2, 2.3]`) também são bem parecidos entre si.<BR>
 > 💡Essa lista de números é o que chamamos de **Embedding**
 
 ✨ Embeddings são **representações vetoriais** aprendidas por um modelo de IA. <BR>
+
 Eles funcionam como um mapa matemático que agrupa significados semelhantes para ajudar inteligências artificiais a entender o contexto.
 
 A IA aprende a colocar coisas semelhantes mais próximas umas das outras nesse "espaço matemático".
@@ -150,7 +151,8 @@ graph TD
 
 ## 📐 5. IA costuma usar Similaridade por Cosseno (a matemática simplificada)
 
-Esta é a fórmula:
+Esta é a fórmula:<BR>
+
 ![](assets/AI-p6.png)
 
 **Não entre em pânico! Vamos traduzir isso para o português claro:**
@@ -171,16 +173,22 @@ Esta é a fórmula:
 ## 🧮 6. Vamos aplicar isso as imagens já vistas!
 
 **Exemplo 1: Leão vs Tigre**<br>
+
+![](assets/AI-p5.png)
+
 A figura diz que o ângulo entre eles é de **44°**.
 
 cos(44°) ≈ **0.72**.<br>
 ✅ Essa é uma pontuação alta! A IA diz com confiança: _"Leões e Tigres são animais muito parecidos."_
+<br><br>
 
 **Exemplo 2: Direções opostas**
-![](assets/AI-p7.png)
-A imagem acima mostra cos(180°) = -1.<br>
-Imagine a palavra "Bom" representada por [1, 0] e "Mal" representada por [-1, 0]. <br>
-Elas apontam em direções exatamente opostas. **A IA as vê como opostos absolutos.**
+
+![](assets/AI-p7.png) <br>
+A imagem acima mostra cos(180°) = -1.<br><br>
+Imagine a palavra **"Bom"** representada por **[1, 0]** e **"Mal"** representada por **[-1, 0]**. <br>
+Elas apontam em direções exatamente opostas. <br>
+**A IA as vê como opostos absolutos.**
 
 ---
 

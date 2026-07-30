@@ -1,8 +1,22 @@
+<p align="center">
+  <img src="./Logo-AI-Fundamentals.png" alt="AI Fundamentals" width="100%">
+</p>
+
 # AI Fundamentals
 
-# Embeddings, Vectors, and Cosine Similarity in AI
+[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+![Open Source](https://img.shields.io/badge/Open%20Source-❤-red)
+![Made with Markdown](https://img.shields.io/badge/Made%20with-Markdown-000000?logo=markdown)
+![Topic](https://img.shields.io/badge/Topic-Generative%20AI-purple)
+[![Português](https://img.shields.io/badge/README-PT--BR-green)](README.pt-BR.md)
+[![English](https://img.shields.io/badge/README-EN-blue)](https://github.com/wekers/AI-Fundamentals)
 
-[🇺🇸 English](https://github.com/wekers/AI-Fundamentals) | [🇧🇷 Português](README.pt-BR.md)
+A beginner-friendly guide to understanding how modern AI works through **Embeddings**, **Vectors**, and **Cosine Similarity**.
+
+🌍 **Languages**
+
+- 🇺🇸 [English](https://github.com/wekers/AI-Fundamentals)
+- 🇧🇷 [Português](README.pt-BR.md)
 
 ---
 
@@ -295,9 +309,9 @@ G
 
 > 💡 **Summary**
 >
-> - 🧠 An LLM can respond using only the knowledge acquired during training.
-> - 📚 When connected to a vector database (RAG), it can also query external documents before responding.
-> - ✨ In both cases, embeddings are fundamental for representing the meaning of the question and finding semantically similar information.
+> - An LLM can respond using only the knowledge acquired during training.
+> - When connected to a vector database (RAG), it can also query external documents before responding.
+> - In both cases, embeddings are fundamental for representing the meaning of the question and finding semantically similar information.
 
 ---
 
@@ -307,8 +321,7 @@ G
 2. **Vectors** are arrows pointing from the center to those numbers. The arrow's direction represents the _meaning_.
 3. **Cosine Similarity** measures the angle between these arrows. A score close to **1** means they are highly similar; close to **-1** means they are semantically opposite.
 
-✨ Every modern Generative AI system (ChatGPT, Gemini, Claude, Copilot)<br>
-👉 uses embeddings in some way.
+✨ Every modern Generative AI system (ChatGPT, Gemini, Claude, Copilot), uses embeddings in some way.
 
 ---
 

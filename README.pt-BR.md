@@ -1,8 +1,22 @@
+<p align="center">
+  <img src="./Logo-AI-Fundamentals.png" alt="AI Fundamentals" width="100%">
+</p>
+
 # AI Fundamentals
 
-# Embeddings, Vetores e Similaridade por Cosseno em IA
+[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+![Open Source](https://img.shields.io/badge/Open%20Source-❤-red)
+![Made with Markdown](https://img.shields.io/badge/Made%20with-Markdown-000000?logo=markdown)
+![Topic](https://img.shields.io/badge/Topic-Generative%20AI-purple)
+[![Português](https://img.shields.io/badge/README-PT--BR-green)](README.pt-BR.md)
+[![English](https://img.shields.io/badge/README-EN-blue)](https://github.com/wekers/AI-Fundamentals)
 
-[🇺🇸 English](https://github.com/wekers/AI-Fundamentals) | [🇧🇷 Português](README.pt-BR.md)
+Um guia acessível sobre como a IA moderna funciona por meio de embeddings, vetores e similaridade de cosseno.
+
+🌍 **Languages**
+
+- 🇺🇸 [English](https://github.com/wekers/AI-Fundamentals)
+- 🇧🇷 [Português](README.pt-BR.md)
 
 ---
 
@@ -295,9 +309,9 @@ G
 
 > 💡 **Resumo**
 >
-> - 🧠 Um LLM pode responder usando apenas o conhecimento adquirido durante o treinamento.
-> - 📚 Quando conectado a um banco vetorial (RAG), ele também consegue consultar documentos externos antes de responder.
-> - ✨ Em ambos os casos, os embeddings são fundamentais para representar o significado da pergunta e encontrar informações semanticamente semelhantes.
+> - Um LLM pode responder usando apenas o conhecimento adquirido durante o treinamento.
+> - Quando conectado a um banco vetorial (RAG), ele também consegue consultar documentos externos antes de responder.
+> - Em ambos os casos, os embeddings são fundamentais para representar o significado da pergunta e encontrar informações semanticamente semelhantes.
 
 ---
 
@@ -307,8 +321,7 @@ G
 2. **Vetores** são flechas que apontam do centro para esses números. A direção da flecha representa o _significado_.
 3. **Similaridade por Cosseno** mede o ângulo entre essas flechas. Uma pontuação perto de **1** significa que são melhores amigos; perto de **-1** significa que são inimigos.
 
-✨ Todo sistema moderno de IA Generativa (ChatGPT, Gemini, Claude, Copilot)<br>
-👉 usa embeddings de alguma forma.
+✨ Todo sistema moderno de IA Generativa (ChatGPT, Gemini, Claude, Copilot), usa embeddings de alguma forma.
 
 ---
 
